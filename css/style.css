@@ -60,7 +60,7 @@ img {
   cursor: pointer;
   transition: background-color 0.2s ease, transform 0.1s ease;
 }
-
+`
 #page_header { 
   background-color: #0f172a;
   text-align: center;
