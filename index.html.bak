@@ -7,7 +7,7 @@
 </head>
 <body>
 
-    <header id = "page1_header">
+    <header id = "page_header">
         <h1>Gymnastics</h1>
         <p>All about the history and achievements in gymnastics.</p>
     </header>
@@ -33,9 +33,9 @@
     </main>
 
     <footer id = "footer">
-        <p>
+        
             <a href="page2.html" class="button">Read more on Page 2</a>
-        </p>
+
 
     </footer>
 
