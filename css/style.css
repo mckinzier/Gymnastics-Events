@@ -7,7 +7,6 @@ header {
 
 main {
   padding: 40px;
-  flex: 1;
 }
 
 h1, h2, h3 {
@@ -17,19 +16,11 @@ h1, h2, h3 {
 body {
   background-color: #f7f9fc;
   margin: 0;
-  padding: 0;
   font-family: sans-serif;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
 }
 
 img {
-  max-width: 300px;
-  width: 100%;
   border-radius: 10px;
-  display: block;
-  margin: 0 auto;
 }
 
 .blue {
@@ -47,27 +38,8 @@ img {
   font-size: 20px;
 }
 
-.button {
-  background-color: white;
-  color: #0f172a;
-  padding: 14px 28px;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  font-weight: 600;
-  border-radius: 8px;
-  border: 2px solid transparent;
-  cursor: pointer;
-  transition: background-color 0.2s ease, transform 0.1s ease;
-}
-`
 #page_header { 
   background-color: #0f172a;
-  text-align: center;
-}
-
-#page1_content { 
-  background-color: gray;
   text-align: center;
 }
 
@@ -83,16 +55,6 @@ img {
   padding: 20px;
 }
 
-.flex-container {
-  display: flex;
-  gap: 20px;
-  justify-content: center;  /* centers the two boxes */
-  align-items: stretch;     /* makes them same height */
-  flex-wrap: wrap;           /* wrap on small screens */
-  width: 90%;                /* take most of the page width */
-  margin: 0 auto;            /* center container */
-}
-
 .content-box {
   background: white;
   padding: 25px;
@@ -100,12 +62,6 @@ img {
   border: 1px solid #0f172a;
   box-shadow: 0 6px 18px rgba(0,0,0,0.08);
 
-  flex: 1;                  /* grow equally */
-  min-width: 300px;          /* prevents squishing on small screens */
-  max-width: 45%;             /* two boxes side by side, ~45% each */
-  
-  display: flex;
-  flex-direction: column;     /* stack heading -> paragraph -> image */
 }
 @media (max-width: 600px) {
   body {
